@@ -6,9 +6,8 @@ class Solver
     elsif num.positive?
       num * factorial(num - 1)
     else
-      raise ArgumentError, "Only positive numbers are allowed"
+      raise ArgumentError, 'Only positive numbers are allowed'
     end
-      
   end
 
   def reverse(str)
