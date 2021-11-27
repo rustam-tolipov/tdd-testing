@@ -1,10 +1,10 @@
 # TDD Test Driven Development
 class Solver
-  def factorial(n)
-    if n.zero?
+  def factorial(num)
+    if num.zero?
       1
     else
-      n * factorial(n - 1)
+      num * factorial(num - 1)
     end
   end
 
@@ -16,17 +16,17 @@ class Solver
     end
   end
 
-  def fizzbuzz(n)
-    if (n % 15).zero?
+  def fizzbuzz(num)
+    if (num % 15).zero?
       'FizzBuzz'
-    elsif (n % 3).zero?
+    elsif (num % 3).zero?
       'Fizz'
-    elsif (n % 5).zero?
+    elsif (num % 5).zero?
       'Buzz'
 
       # returns the number when given a number not divisible by 3 or 5
-    elsif n % 3 != 0 && n % 5 != 0
-      n
+    elsif num % 3 != 0 && num % 5 != 0
+      num
     end
   end
 end

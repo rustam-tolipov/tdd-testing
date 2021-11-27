@@ -47,7 +47,6 @@ RSpec.configure do |config|
   config.formatter = :documentation
 end
 
-
 # In RSpec, what does this matcher mean? *
 # expect { }.to raise_error(ErrorClass)
-# what does this matcher abowe mean? 
+# what does this matcher abowe mean?
